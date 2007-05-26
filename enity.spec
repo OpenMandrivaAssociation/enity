@@ -1,11 +1,12 @@
 %define name enity
 %define version 0.0.1
+%define release %mkrel 1
 
 
 Summary: Command line tool for creating Etk-based dialogs
 Name: %{name}
 Version: %{version}
-Release: %mkrel 1
+Release: %{release}
 License: BSD
 Group: Applications/Multimedia
 URL: http://www.enlightenment.org/
