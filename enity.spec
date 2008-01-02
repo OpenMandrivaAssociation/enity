@@ -12,6 +12,7 @@ Group: Development/Other
 URL: http://www.enlightenment.org/
 Source: %{name}-%{version}.tar.bz2
 BuildRequires: etk-devel >= 0.1.0.003, ecore-devel >= 0.9.9.038
+BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
 %description
 Enity allows users to create Etk dialogs using shell scripts or other
