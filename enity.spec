@@ -1,6 +1,6 @@
 %define name enity
 %define version 0.0.1
-%define release %mkrel 4
+%define release %mkrel 6
 
 
 Summary: Command line tool for creating Etk-based dialogs
@@ -11,7 +11,7 @@ License: BSD
 Group: Development/Other
 URL: http://www.enlightenment.org/
 Source: %{name}-%{version}.tar.bz2
-BuildRequires: etk-devel >= 0.1.0.003, ecore-devel >= 0.9.9.038
+BuildRequires: etk-devel >= 0.1.0.042, ecore-devel >= 0.9.9.050
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
 %description
