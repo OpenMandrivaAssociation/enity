@@ -1,7 +1,6 @@
 %define name enity
 %define version 0.0.1
-%define release %mkrel 6
-
+%define release %mkrel 7
 
 Summary: Command line tool for creating Etk-based dialogs
 Name: %{name}
@@ -21,7 +20,6 @@ the development of quick interfaces for input, configuration,
 installation, etc.
 
 %prep
-rm -rf $RPM_BUILD_ROOT
 %setup -q
 
 %build
@@ -29,10 +27,8 @@ rm -rf $RPM_BUILD_ROOT
 %make
 
 %install
-%makeinstall
-
-#%post -p /sbin/ldconfig
-#%postun -p /sbin/ldconfig
+rm -fr %buildroot
+%makeinstall_std
 
 %clean
 rm -rf $RPM_BUILD_ROOT
