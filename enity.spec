@@ -8,7 +8,7 @@ Version: %{version}
 Release: %{release}
 License: BSD
 Group: Development/Other
-URL: http://www.enlightenment.org/
+URL: https://www.enlightenment.org/
 Source: %{name}-%{version}.tar.bz2
 BuildRequires: etk-devel >= 0.1.0.042, ecore-devel >= 0.9.9.050
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
