@@ -10,6 +10,11 @@ License: BSD
 Group: Development/Other
 URL: https://www.enlightenment.org/
 Source: %{name}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: etk-devel >= 0.1.0.042, ecore-devel >= 0.9.9.050
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
