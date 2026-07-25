@@ -1,6 +1,6 @@
 %define name enity
 %define version 0.0.1
-%define release %mkrel 9
+%define release 10
 
 Summary: Command line tool for creating Etk-based dialogs
 Name: %{name}
